@@ -1,6 +1,6 @@
 import React from "react";
 
-import { NavBar } from "@/components";
+import { NavBar, Footer } from "@/components";
 import HeroSection from "./HeroSection";
 import ValueSection from "./ValueSection";
 
@@ -12,6 +12,7 @@ export default function Home() {
         <HeroSection />
         <ValueSection />
       </main>
+      <Footer />
     </div>
   );
 }

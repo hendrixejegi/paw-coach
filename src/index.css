@@ -164,11 +164,11 @@
     @apply grid grid-cols-[1fr_min(100%,_1280px)_1fr];
   }
 
+  .wrapper > * {
+    @apply col-start-2;
+  }
+
   .full-bleed {
     @apply col-span-full;
   }
-}
-
-.wrapper > * {
-  @apply col-start-2;
 }
